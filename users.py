@@ -69,8 +69,8 @@ def second(message):
                                 'Аты-жөніңізді, почтаңызды және ұсынысыңызды жазыңыз болмаса кездесу күнін белгілеңіз (День.Месяц.Год',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
-    
-   elif message.text == knopka5:
+
+    elif message.text == knopka5:
         keyboard = types.ReplyKeyboardMarkup(True, False)
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka5)
