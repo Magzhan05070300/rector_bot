@@ -1,8 +1,9 @@
 import telebot
 from telebot import types
 
-token = '5783909335:AAHceVgsYSeA7qqu1Q_lh7g8GQziZrBryM8'
-bot = telebot.TeleBot(token)
+TOKEN = '5783909335:AAHceVgsYSeA7qqu1Q_lh7g8GQziZrBryM8'
+APP_URL = f'https://jenpulineochered.herokuapp.com/{TOKEN}'
+bot = telebot.TeleBot(TOKEN)
 chat_id = '473641296'
 
 knopka1='Ректор'
