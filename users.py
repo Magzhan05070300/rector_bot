@@ -26,6 +26,8 @@ def first(message):
     keyboard.add(knopka2)
     keyboard.add(knopka3)
     keyboard.add(knopka4)
+    keyboard.add(knopka5)
+    
     send = bot.send_message(message.chat.id, 'Қажет құрылымды таңдаңыз!', parse_mode='Markdown',
                             reply_markup=keyboard)
     bot.register_next_step_handler(send, second)
