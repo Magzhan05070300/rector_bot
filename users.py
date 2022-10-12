@@ -146,7 +146,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka8)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию:'),
+                                'Просим оставить информацию:'+str('1. ФИО'/n) + str('2. Заявитель (Студент, сотрудник)'/n)+str('3. Дата желаемого визита'),
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
