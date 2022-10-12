@@ -27,7 +27,7 @@ knopka12 = 'Другие подразделения'
 
 @bot.message_handler(commands=["start"])
 def bir(message):
-    keyboard = types.ReplyKeyboardMarkup(True, False)
+    #keyboard = types.ReplyKeyboardMarkup(True, False)
     keyboard.add(knopka6)
     keyboard.add(knopka7)
 
