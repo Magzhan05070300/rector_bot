@@ -12,7 +12,7 @@ bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 chat_id = '473641296'
 
-knopka1 = '3a3Академиялық қызмет жөніндегі проректор'
+knopka1 = 'Академиялық қызмет жөніндегі проректор'
 knopka2 = 'Инфрақұрылымдық даму жөніндегі проректор'
 knopka3 = 'Ғылыми жұмыс жөніндегі проректор'
 knopka4 = 'Стратегиялық даму жөніндегі проректор'
@@ -135,7 +135,7 @@ def odin(message):
 
     send = bot.send_message(message.chat.id, 'Выберите нужное Вам подразделение!', parse_mode='Markdown',
                             reply_markup=keyboard)
-    bot.register_next_step_handler(send, second)
+    bot.register_next_step_handler(send, dva)
 
 
 def dva(message):
@@ -146,7 +146,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka8)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию:'+str('1. ФИО'/n) + str('2. Заявитель (Студент, сотрудник)'/n)+str('3. Дата желаемого визита'),
+                                'Просим оставить информацию:'),
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
