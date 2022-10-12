@@ -33,9 +33,9 @@ def bir(message):
 
     send = bot.send_message(message.chat.id, 'Қажет тілді таңдаңыз! Выберите нужный язык!', parse_mode='Markdown',
                             reply_markup=keyboard)
-    bot.register_next_step_handler(send, eki)
+#    bot.register_next_step_handler(send, eki)
 
-def eki(message):
+#def eki(message):
     # bot.send_message(chat_id=chat_id, text=message.text)
 
     if message.text == knopka6:
