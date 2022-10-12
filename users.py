@@ -49,9 +49,10 @@ def eki(message):
         keyboard.add(knopka4)
         keyboard.add(knopka5)
         send = bot.send_message(message.chat.id,
-                                'выбран kaz язык',
+                                'выбран kaz язык'
+                                'Қажет құрылымды таңдаңыз!',
                                 parse_mode='Markdown', reply_markup=keyboard)
-        bot.register_next_step_handler(send, first)
+        bot.register_next_step_handler(send, second)
 
     elif message.text == knopka7:
         keyboard = types.ReplyKeyboardMarkup(True, False)
