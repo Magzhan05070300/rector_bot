@@ -41,7 +41,13 @@ def eki(message):
     # bot.send_message(chat_id=chat_id, text=message.text)
 
     if message.text == knopka6:
+
         keyboard = types.ReplyKeyboardMarkup(True, False)
+        keyboard.add(knopka1)
+        keyboard.add(knopka2)
+        keyboard.add(knopka3)
+        keyboard.add(knopka4)
+        keyboard.add(knopka5)
         send = bot.send_message(message.chat.id,
                                 'выбран kaz язык',
                                 parse_mode='Markdown', reply_markup=keyboard)
