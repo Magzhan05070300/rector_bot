@@ -49,8 +49,8 @@ def eki(message):
         keyboard.add(knopka4)
         keyboard.add(knopka5)
         send = bot.send_message(message.chat.id,
-                                'выбран kaz язык'
-                                '\nҚажет құрылымды таңдаңыз!',
+                                'Қазақ тілі таңдалды.'
+                                '\nЕнді Қажет құрылымды таңдаңыз!',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, second)
 
@@ -62,8 +62,8 @@ def eki(message):
         keyboard.add(knopka11)
         keyboard.add(knopka12)
         send = bot.send_message(message.chat.id,
-                                'выбран rus язык'
-                                '\nҚажет құрылымды таңдаңыз!',
+                                'Выбран русский язык.'
+                                '\nТеперь можете выбрать нужное подразделение!',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, dva)
 
