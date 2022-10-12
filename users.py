@@ -33,7 +33,7 @@ def bir(message):
     keyboard.add(knopka7)
 
     send = bot.send_message(message.chat.id, 'Қажет тілді таңдаңыз!' 
-                                             'Выберите нужный язык!', parse_mode='Markdown',
+                                             '\nВыберите нужный язык!', parse_mode='Markdown',
                             reply_markup=keyboard)
     bot.register_next_step_handler(send, eki)
 
@@ -50,16 +50,22 @@ def eki(message):
         keyboard.add(knopka5)
         send = bot.send_message(message.chat.id,
                                 'выбран kaz язык'
-                                'Қажет құрылымды таңдаңыз!',
+                                '\nҚажет құрылымды таңдаңыз!',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, second)
 
     elif message.text == knopka7:
         keyboard = types.ReplyKeyboardMarkup(True, False)
+        keyboard.add(knopka1)
+        keyboard.add(knopka2)
+        keyboard.add(knopka3)
+        keyboard.add(knopka4)
+        keyboard.add(knopka5)
         send = bot.send_message(message.chat.id,
-                                'Русский язык',
+                                'выбран rus язык'
+                                '\nҚажет құрылымды таңдаңыз!',
                                 parse_mode='Markdown', reply_markup=keyboard)
-        bot.register_next_step_handler(send, odin)
+        bot.register_next_step_handler(send, dva)
 
     else:
         send = bot.send_message(message.chat.id, 'Нажмите на нужную кнопку')
