@@ -41,7 +41,9 @@ def eki(message):
     if message.text == knopka6:
         keyboard = types.ReplyKeyboardMarkup(True, False)
         #bot.send_message(chat_id=473641296, text=knopka1)
-        send = bot.send_message( parse_mode='Markdown', reply_markup=keyboard)
+        send = bot.send_message(message.chat.id,
+                                'kaz язык',
+                                parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, first)
 
     elif message.text == knopka7:
