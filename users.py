@@ -43,8 +43,8 @@ def eki(message):
     if message.text == knopka6:
         keyboard = types.ReplyKeyboardMarkup(True, False)
         send = bot.send_message(message.chat.id,
-                                'выбран kaz язык')
-                                #parse_mode='Markdown', reply_markup=keyboard)
+                                'выбран kaz язык',
+                                parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, first)
 
     elif message.text == knopka7:
@@ -146,7 +146,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka8)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию:'+str('1. ФИО'/n) + str('2. Заявитель (Студент, сотрудник)'/n)+str('3. Дата желаемого визита'),
+                                'Просим оставить информацию:',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
