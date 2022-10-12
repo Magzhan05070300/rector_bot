@@ -159,7 +159,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka8)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию:',
+                                'Просим оставить информацию: Ваше ФИО, должность(студент или сотрудник), дату и время встречи',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -168,7 +168,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka9)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию: (День.Месяц.Год)',
+                                'Просим оставить информацию: Ваше ФИО, должность(студент или сотрудник), дату и время встречи',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -177,7 +177,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka10)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию: (День.Месяц.Год)',
+                                'Просим оставить информацию: Ваше ФИО, должность(студент или сотрудник), дату и время встречи',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -186,7 +186,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka11)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию: (День.Месяц.Год)',
+                                'Просим оставить информацию: Ваше ФИО, должность(студент или сотрудник), дату и время встречи',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -195,7 +195,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka12)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию: (День.Месяц.Год)',
+                                'Просим оставить информацию: Ваше ФИО, должность(студент или сотрудник), дату и время встречи',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
