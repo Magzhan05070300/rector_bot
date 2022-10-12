@@ -56,11 +56,11 @@ def eki(message):
 
     elif message.text == knopka7:
         keyboard = types.ReplyKeyboardMarkup(True, False)
-        keyboard.add(knopka1)
-        keyboard.add(knopka2)
-        keyboard.add(knopka3)
-        keyboard.add(knopka4)
-        keyboard.add(knopka5)
+        keyboard.add(knopka8)
+        keyboard.add(knopka9)
+        keyboard.add(knopka10)
+        keyboard.add(knopka11)
+        keyboard.add(knopka12)
         send = bot.send_message(message.chat.id,
                                 'выбран rus язык'
                                 '\nҚажет құрылымды таңдаңыз!',
