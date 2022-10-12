@@ -41,9 +41,7 @@ def eki(message):
     if message.text == knopka6:
         keyboard = types.ReplyKeyboardMarkup(True, False)
         #bot.send_message(chat_id=473641296, text=knopka1)
-        send = bot.send_message(message.chat.id,
-                                'Қазақ тілі',
-                                parse_mode='Markdown', reply_markup=keyboard)
+        send = bot.send_message( parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, first)
 
     elif message.text == knopka7:
@@ -79,7 +77,7 @@ def second(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka1)
         send = bot.send_message(message.chat.id,
-                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңіз, лауазымыңыз және қабылдауға жазылу уақытыңызды(күні мен сағаты)',
+                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты)',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -88,7 +86,7 @@ def second(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka2)
         send = bot.send_message(message.chat.id,
-                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңіз, лауазымыңыз және қабылдауға жазылу уақытыңызды(күні мен сағаты)',
+                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты)',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -97,7 +95,7 @@ def second(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka3)
         send = bot.send_message(message.chat.id,
-                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңіз, лауазымыңыз және қабылдауға жазылу уақытыңызды(күні мен сағаты)',
+                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты)',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -106,7 +104,7 @@ def second(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka4)
         send = bot.send_message(message.chat.id,
-                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңіз, лауазымыңыз және қабылдауға жазылу уақытыңызды(күні мен сағаты)',
+                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты)',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -115,7 +113,7 @@ def second(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka5)
         send = bot.send_message(message.chat.id,
-                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңіз, лауазымыңыз және қабылдауға жазылу уақытыңызды(күні мен сағаты)',
+                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты)',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
