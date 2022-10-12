@@ -24,6 +24,7 @@ knopka9 = 'Проректор по инфраструктурному разви
 knopka10 = 'Проректор по науке'
 knopka11 = 'Проректор по стратегическому развитию'
 knopka12 = 'Другие подразделения'
+knopka13 = ''
 
 @bot.message_handler(commands=["start"])
 def bir(message):
@@ -31,18 +32,19 @@ def bir(message):
     keyboard.add(knopka6)
     keyboard.add(knopka7)
 
-    send = bot.send_message(message.chat.id, 'Қажет тілді таңдаңыз! Выберите нужный язык!', parse_mode='Markdown',
+    send = bot.send_message(message.chat.id, 'Қажет тілді таңдаңыз!' 
+                                             'Выберите нужный язык!', parse_mode='Markdown',
                             reply_markup=keyboard)
-#    bot.register_next_step_handler(send, eki)
+    bot.register_next_step_handler(send, eki)
 
-#def eki(message):
+def eki(message):
     # bot.send_message(chat_id=chat_id, text=message.text)
 
     if message.text == knopka6:
         keyboard = types.ReplyKeyboardMarkup(True, False)
         #bot.send_message(chat_id=473641296, text=knopka1)
         send = bot.send_message(message.chat.id,
-                                'kaz язык',
+                                'выбран kaz язык',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, first)
 
