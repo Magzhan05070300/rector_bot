@@ -92,7 +92,7 @@ def second(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka1)
         send = bot.send_message(message.chat.id,
-                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты, * бір тәулік бұрын жазылыңыз)',
+                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты,  бір тәулік бұрын жазылыңыз)',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -101,7 +101,7 @@ def second(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka2)
         send = bot.send_message(message.chat.id,
-                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты, * бір тәулік бұрын жазылыңыз)',
+                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты,  бір тәулік бұрын жазылыңыз)',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -110,7 +110,7 @@ def second(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka3)
         send = bot.send_message(message.chat.id,
-                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты, * бір тәулік бұрын жазылыңыз)',
+                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты,  бір тәулік бұрын жазылыңыз)',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -119,7 +119,7 @@ def second(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka4)
         send = bot.send_message(message.chat.id,
-                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты, * бір тәулік бұрын жазылыңыз)',
+                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты,  бір тәулік бұрын жазылыңыз)',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -128,7 +128,7 @@ def second(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka5)
         send = bot.send_message(message.chat.id,
-                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты, * бір тәулік бұрын жазылыңыз)',
+                                'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты,  бір тәулік бұрын жазылыңыз)',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -159,7 +159,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka8)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи * записывайтесь на день раньше',
+                                'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи  записывайтесь на день раньше',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -168,7 +168,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka9)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи * записывайтесь на день раньше',
+                                'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи  записывайтесь на день раньше',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -177,7 +177,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka10)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи * записывайтесь на день раньше',
+                                'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи  записывайтесь на день раньше',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -186,7 +186,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka11)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи * записывайтесь на день раньше',
+                                'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи  записывайтесь на день раньше',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
@@ -195,7 +195,7 @@ def dva(message):
         keyboard.add("/start")
         bot.send_message(chat_id=473641296, text=knopka12)
         send = bot.send_message(message.chat.id,
-                                'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи * записывайтесь на день раньше',
+                                'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи  записывайтесь на день раньше',
                                 parse_mode='Markdown', reply_markup=keyboard)
         bot.register_next_step_handler(send, third)
 
