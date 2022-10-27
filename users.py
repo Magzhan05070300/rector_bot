@@ -10,7 +10,7 @@ TOKEN = '5781509389:AAGsC_eoDQPAGnrKNcqf-kbb6wRH19vFm2o'
 APP_URL = f'https://jenpulineochered.herokuapp.com/{TOKEN}'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
-chat_id = '609240271'
+#chat_id = '609240271'
 
 knopka1 = 'Академиялық қызмет жөніндегі проректор'
 knopka2 = 'Инфрақұрылымдық даму жөніндегі проректор'
@@ -91,6 +91,7 @@ def second(message):
         keyboard = types.ReplyKeyboardMarkup(True, False)
         keyboard.add("/start")
         bot.send_message(chat_id=609240271, text=knopka1)
+        bot.send_message(chat_id=1111510132, text=knopka1)
         send = bot.send_message(message.chat.id,
                                 'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты,  бір тәулік бұрын жазылыңыз)',
                                 parse_mode='Markdown', reply_markup=keyboard)
@@ -100,6 +101,7 @@ def second(message):
         keyboard = types.ReplyKeyboardMarkup(True, False)
         keyboard.add("/start")
         bot.send_message(chat_id=609240271, text=knopka2)
+        bot.send_message(chat_id=1111510132, text=knopka2)
         send = bot.send_message(message.chat.id,
                                 'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты,  бір тәулік бұрын жазылыңыз)',
                                 parse_mode='Markdown', reply_markup=keyboard)
@@ -109,6 +111,7 @@ def second(message):
         keyboard = types.ReplyKeyboardMarkup(True, False)
         keyboard.add("/start")
         bot.send_message(chat_id=609240271, text=knopka3)
+        bot.send_message(chat_id=1111510132, text=knopka3)
         send = bot.send_message(message.chat.id,
                                 'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты,  бір тәулік бұрын жазылыңыз)',
                                 parse_mode='Markdown', reply_markup=keyboard)
@@ -118,6 +121,7 @@ def second(message):
         keyboard = types.ReplyKeyboardMarkup(True, False)
         keyboard.add("/start")
         bot.send_message(chat_id=609240271, text=knopka4)
+        bot.send_message(chat_id=1111510132, text=knopka4)
         send = bot.send_message(message.chat.id,
                                 'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты,  бір тәулік бұрын жазылыңыз)',
                                 parse_mode='Markdown', reply_markup=keyboard)
@@ -127,6 +131,7 @@ def second(message):
         keyboard = types.ReplyKeyboardMarkup(True, False)
         keyboard.add("/start")
         bot.send_message(chat_id=609240271, text=knopka5)
+        bot.send_message(chat_id=1111510132, text=knopka5)
         send = bot.send_message(message.chat.id,
                                 'Келесі ақпаратты толтыруыңызды сұраймыз: Аты-жөніңізді, байланыс контактіңізді, лауазымыңызды және қабылдауға жазылу уақытыңызды(күні мен сағаты,  бір тәулік бұрын жазылыңыз)',
                                 parse_mode='Markdown', reply_markup=keyboard)
@@ -158,6 +163,7 @@ def dva(message):
         keyboard = types.ReplyKeyboardMarkup(True, False)
         keyboard.add("/start")
         bot.send_message(chat_id=609240271, text=knopka8)
+        bot.send_message(chat_id=1111510132, text=knopka8)
         send = bot.send_message(message.chat.id,
                                 'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи  записывайтесь на день раньше',
                                 parse_mode='Markdown', reply_markup=keyboard)
@@ -167,6 +173,7 @@ def dva(message):
         keyboard = types.ReplyKeyboardMarkup(True, False)
         keyboard.add("/start")
         bot.send_message(chat_id=609240271, text=knopka9)
+        bot.send_message(chat_id=1111510132, text=knopka9)
         send = bot.send_message(message.chat.id,
                                 'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи  записывайтесь на день раньше',
                                 parse_mode='Markdown', reply_markup=keyboard)
@@ -176,6 +183,7 @@ def dva(message):
         keyboard = types.ReplyKeyboardMarkup(True, False)
         keyboard.add("/start")
         bot.send_message(chat_id=609240271, text=knopka10)
+        bot.send_message(chat_id=1111510132, text=knopka10)
         send = bot.send_message(message.chat.id,
                                 'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи  записывайтесь на день раньше',
                                 parse_mode='Markdown', reply_markup=keyboard)
@@ -185,6 +193,7 @@ def dva(message):
         keyboard = types.ReplyKeyboardMarkup(True, False)
         keyboard.add("/start")
         bot.send_message(chat_id=609240271, text=knopka11)
+        bot.send_message(chat_id=1111510132, text=knopka11)
         send = bot.send_message(message.chat.id,
                                 'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи  записывайтесь на день раньше',
                                 parse_mode='Markdown', reply_markup=keyboard)
@@ -194,6 +203,7 @@ def dva(message):
         keyboard = types.ReplyKeyboardMarkup(True, False)
         keyboard.add("/start")
         bot.send_message(chat_id=609240271, text=knopka12)
+        bot.send_message(chat_id=1111510132, text=knopka12)
         send = bot.send_message(message.chat.id,
                                 'Просим оставить информацию: Ваше ФИО,контактные данные, должность(студент или сотрудник), дату и время встречи  записывайтесь на день раньше',
                                 parse_mode='Markdown', reply_markup=keyboard)
@@ -206,6 +216,7 @@ def dva(message):
 
 def third(message):
     bot.send_message(chat_id=609240271, text=message.text)
+    bot.send_message(chat_id=1111510132, text=message.text)
 
 @server.route('/' + TOKEN, methods=['POST'])
 def get_message():
