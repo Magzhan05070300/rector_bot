@@ -7,7 +7,7 @@ import telebot
 from telebot import types
 
 TOKEN = '5781509389:AAGsC_eoDQPAGnrKNcqf-kbb6wRH19vFm2o'
-APP_URL = f'https://jenpulineochered.herokuapp.com/{TOKEN}'
+APP_URL = f'https://remarkable-cuchufli-424fb8.netlify.app/{TOKEN}'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 #chat_id = '609240271'
